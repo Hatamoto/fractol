@@ -114,5 +114,5 @@ void	scrollhook(double xdelta, double ydelta, void *vf)
 	else if (ydelta < 0)
 		zoom_in(f);
 	if (xdelta < 0)
-		;
+		f = NULL;
 }
