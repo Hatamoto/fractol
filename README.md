@@ -8,7 +8,7 @@ Welcome to **fract'ol** – a thrilling dive into the world of computer graphics
 
 - **Project:** fract'ol – Computer Graphics Fractals  
 - **Version:** 3  
-- **Description:** Create graphically beautiful fractals (Mandelbrot and Julia sets) using C and MiniLibX. Experience interactive zoom, smooth window management, and bonus features that bring extra life to fractals.
+- **Description:** Create graphically beautiful fractals (Mandelbrot, Julia and Burning Ship sets) using C and MLX42. Experience interactive zoom, smooth color gradients, and bonus features that bring extra life to fractals.
 
 ---
 
@@ -30,13 +30,13 @@ Welcome to **fract'ol** – a thrilling dive into the world of computer graphics
 
 ## Foreword
 
-Inspired by the fascinating world of fractals and the idea of infinite complexity, this project channels the spirit of mathematical art into an interactive graphics program. (Fun fact: despite its name, fract'ol has no relation to hydraulic fracturing!)
+Inspired by the fascinating world of fractals and the idea of infinite complexity, this project channels the spirit of mathematical art into an interactive graphics program.
 
 ---
 
 ## Introduction
 
-The term *fractal* was coined by Benoit Mandelbrot and represents structures that repeat at every scale. In fract'ol, I implemented the classic Mandelbrot set along with dynamic Julia sets, harnessing the power of C and the MiniLibX for graphics rendering. This project opened up a whole new world of computer graphics for me!
+The term *fractal* was coined by Benoit Mandelbrot and represents structures that repeat at every scale. In fract'ol, I implemented the classic Mandelbrot set along with the Burning Ship and dynamic Julia sets, harnessing the power of C and MLX42 library for graphics rendering. This project opened up a whole new world of computer graphics for me!
 
 ---
 
