@@ -1,6 +1,6 @@
 # fract'ol - Computer Graphics Fractals (v3)
 
-Welcome to **fract'ol** – a thrilling dive into the world of computer graphics and fractals, built entirely in C! This project was my first foray into creating visually stunning graphics using the MiniLibX library, and it was an incredibly exciting challenge.
+Welcome to **fract'ol** – a thrilling dive into the world of computer graphics and fractals, built entirely in C! This project was my first foray into creating visually stunning graphics using the MLX42 library, and it was an incredibly exciting challenge.
 
 ---
 
@@ -42,7 +42,7 @@ The term *fractal* was coined by Benoit Mandelbrot and represents structures tha
 
 ## Objectives
 
-- **Learn & Explore:** Get hands-on with the MiniLibX library and basic computer graphics in C.
+- **Learn & Explore:** Get hands-on with the MLX42 library and basic computer graphics in C.
 - **Understand Fractals:** Dive into the math behind fractals and visualize the beauty of the Mandelbrot and Julia sets.
 - **Interactive Experience:** Implement zooming with the mouse wheel, smooth window management, and dynamic rendering.
 - **Bonus Challenge:** Push boundaries with extra fractal types, mouse-driven zoom, arrow key navigation, and color shifting for that extra psychedelic touch.
@@ -57,7 +57,7 @@ The term *fractal* was coined by Benoit Mandelbrot and represents structures tha
 - **Makefile:** Must include the following rules:
   - `$(NAME)`, `all`, `clean`, `fclean`, `re`
   - A `bonus` rule to compile extra features.
-- **Libraries Used:** MiniLibX for graphics, math library (`-lm`), and optionally ft_printf for custom printing.
+- **Libraries Used:** MLX42 for graphics, math library (`-lm`), and optionally ft_printf for custom printing.
 
 ---
 
@@ -66,7 +66,8 @@ The term *fractal* was coined by Benoit Mandelbrot and represents structures tha
 ### Rendering
 
 - **Fractals:**  
-  - Mandelbrot Set  
+  - Mandelbrot Set
+  - Burning Ship Set 
   - Julia Set (configurable via command-line parameters)
 - **Interactivity:**  
   - Use the mouse wheel to zoom in and out (practically infinite zoom!)
@@ -83,7 +84,7 @@ The term *fractal* was coined by Benoit Mandelbrot and represents structures tha
 - **User Input:**  
   - Pressing ESC or clicking the window close button exits the program cleanly.
 - **Technical Requirements:**  
-  - Use MiniLibX images to render the fractals.
+  - Use MLX42 images to render the fractals.
   - No global variables – all data is managed cleanly and efficiently.
 
 ---
